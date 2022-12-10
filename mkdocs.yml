@@ -1,0 +1,57 @@
+site_name: SSH Certificates
+site_url: https://lmelwyn.github.com//
+site_author: L. M. Jensen
+
+copyright: 2022 L. M. Jensen DTU Research Computing
+
+repo_url: https://github.com/lmelwyn/ssh-certificates
+
+theme:
+  name: material
+  font:
+    text: Roboto
+  palette:
+    primary: red
+    accent: red
+  features:
+    - header.autohide
+
+
+nav:
+    - Home: index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lmelwyn
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/lmelwyn
+
+markdown_extensions:
+  - admonition:
+  - codehilite:
+  - def_list:
+  - footnotes:
+  - attr_list:
+  - md_in_html:
+  - sane_lists:
+  - tables:
+  - toc:
+      permalink:
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
